@@ -1,0 +1,101 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+html,
+body {  
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  min-width: 98vw;  
+  justify-content: center;
+  align-items: center;
+  background: #331b4b;
+}
+#container {
+    width: 30%;
+   
+    padding: 1rem;
+}
+h1{
+   font-family: lobster;
+   color: #331b4b;
+   font-weight: 100;
+   font-size: 1.5rem;
+   text-align: center;
+   padding-top: 1.7rem;
+}
+
+.titre {
+    margin: 2rem auto;
+    width: 120px;
+    height: 120px;    
+    background: #fff;
+    border-radius: 100px;   
+     
+}
+
+.search {
+    max-width: 400px;
+    display: flex;
+    margin: 0 auto;
+}
+  .searchTerm {
+    width: 100%;
+    border: 1px solid #fff;
+    border-right: none;
+    padding: 5px;
+    height: 50px;
+    color: #fff;
+    border-radius: 5px 0 0 5px;
+    outline: none;
+    background: #331b4b;
+  }
+  .searchTerm:focus {
+    color: #fff;
+  }  
+  .searchButton {
+    width: 70px;
+    height: 62px;
+    border: 1px solid #fff;
+    background: #fff;
+    text-align: center;
+    color: #fff;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+    font-size: 20px;
+  }  
+  .fa-solid, .fas{
+    color: #331b4b;
+  }
+  
+  /*LISTE Coktail*/
+
+  .listeCoktail {
+    margin-top: 9rem;
+ }
+  .coktail {
+    display: flex; 
+    margin-bottom: 1.5rem;  
+  }
+
+ .coktail img{
+  width: 50%;
+
+}
+.product-name {
+    width: 64%;
+    padding-left: 10px;
+}
+p.name{
+    color: #fff;    
+    font-family: Poppins;    
+    border-bottom: 1px solid white;
+    padding-bottom: 1rem;
+    padding-bottom: 0.7rem;
+}
+
+
