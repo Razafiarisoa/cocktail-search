@@ -1,0 +1,97 @@
+html, body {
+  min-width: 98vw;
+  background: #331b4b;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+#container {
+  width: 30%;
+  padding: 1rem;
+}
+
+h1 {
+  color: #331b4b;
+  text-align: center;
+  padding-top: 1.7rem;
+  font-family: lobster;
+  font-size: 1.5rem;
+  font-weight: 100;
+}
+
+.titre {
+  width: 120px;
+  height: 120px;
+  background: #fff;
+  border-radius: 100px;
+  margin: 2rem auto;
+}
+
+.search {
+  max-width: 400px;
+  margin: 0 auto;
+  display: flex;
+}
+
+.searchTerm {
+  width: 100%;
+  height: 50px;
+  color: #fff;
+  background: #331b4b;
+  border: 1px solid #fff;
+  border-right: none;
+  border-radius: 5px 0 0 5px;
+  outline: none;
+  padding: 5px;
+}
+
+.searchTerm:focus {
+  color: #fff;
+}
+
+.searchButton {
+  width: 70px;
+  height: 62px;
+  text-align: center;
+  color: #fff;
+  cursor: pointer;
+  background: #fff;
+  border: 1px solid #fff;
+  border-radius: 0 5px 5px 0;
+  font-size: 20px;
+}
+
+.fa-solid, .fas {
+  color: #331b4b;
+}
+
+.listeCoktail {
+  margin-top: 3rem;
+}
+
+.coktail {
+  margin-bottom: 1.5rem;
+  display: flex;
+}
+
+.coktail img {
+  width: 50%;
+}
+
+.product-name {
+  width: 64%;
+  padding-left: 10px;
+}
+
+p.name {
+  color: #fff;
+  border-bottom: 1px solid #fff;
+  padding-bottom: .7rem;
+  font-family: Poppins;
+}
+
+/*# sourceMappingURL=index.ee7f3cbd.css.map */
